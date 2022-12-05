@@ -4,8 +4,8 @@
 // 782 -> 8
 // 918 -> 1
 
- Console.Clear();
- Console.WriteLine($"Ввести число ");
+Console.Clear();
+Console.WriteLine($"Ввести число ");
 int num = int.Parse(Console.ReadLine());
 
 int result = (  (num % 100) & (num /= 10) ); 
