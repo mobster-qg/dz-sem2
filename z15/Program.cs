@@ -8,61 +8,18 @@ Console.Clear();
 Console.WriteLine($"Ввести день от 1 до 7");
 int num = int.Parse(Console.ReadLine());
  
- if (1 >= num )
-{
-        Console.WriteLine($"вых");
-}
-while( 2 > num );
-{
-    Console.WriteLine($"раб");
-}
- return;
-  
-  if (3 >= num )
-{
-        Console.WriteLine($"вых");
-}
-while( 0 < num );
-{
-    Console.WriteLine($"раб");
-}
- return;
+ if (num >1  & num < 7)
  
-  if (4 >= num )
-{
-        Console.WriteLine($"вых");
-}
-while( 0 < num );
-{
-    Console.WriteLine($"раб");
-}
- return; 
- 
- if ( 5 >= num )
-{
-        Console.WriteLine($"вых");
-}
-while( 0 < num );
-{
-    Console.WriteLine($"раб");
-}
- return; 
- 
-if (6 <= num )
-{
-        Console.WriteLine($"вых");
-}
-while ( 0 < num) 
-{
-    Console.WriteLine($"раб");
-}
- return;
- if (7 >= num )
-{
-        Console.WriteLine($"вых");
-}
-while( 0 < num );
-{
-    Console.WriteLine($"раб");
-}
- return;
+ if (num == 6)
+ {
+    Console.WriteLine($"{num}->  вых");
+ } 
+ if (num == 7)
+ {
+    Console.WriteLine($"{num} ->  вых");
+ } 
+
+ else
+ {
+    Console.WriteLine($"{num} ->  раб");
+ }
